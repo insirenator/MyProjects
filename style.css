@@ -31,6 +31,7 @@
 .hero > #info {
 	font-size: 0.6em;
 	color: #c6b8b5;
+	text-align: justify;
 }
 
 .projects {
@@ -75,13 +76,15 @@
 }
 
 .project > .description > .project-title {
-	font-size: 1.3rem;
+	font-size: 1.1rem;
 	font-weight: bold;
 }
 
 .project > .description > .project-info {
 	color: #403b3b;
 	line-height: 1.2;
+	text-align: justify;
+	font-size: 0.9rem;
 }
 
 .project > .link {
@@ -89,6 +92,7 @@
 	justify-content: space-between;
 	align-items: center;
 	margin: 1rem 1rem;
+	font-size: 0.9rem;
 }
 
 /*Disable default properties on links*/
