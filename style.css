@@ -16,13 +16,16 @@
 	padding: 1em;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around; 
+	justify-content: space-around;
 }
 
 .hero > #title {
 	font-size: 2em;
 	color: #8484d1;
 	font-family: "Bebas Neue";
+	position: sticky;
+	top: 0;
+	text-shadow: 2px 2px 5px rgba(0,0,0,0.8); 
 }
 
 .hero > #info {
@@ -68,7 +71,7 @@
 
 .project > .description {
 	margin-right: auto;
-	min-width: 50px;
+	max-width: 60%;
 }
 
 .project > .description > .project-title {
@@ -96,8 +99,4 @@ a {
 
 a:hover {
 	color: #494bbe;
-}
-
-@media(max-height:600px) {
-
 }
